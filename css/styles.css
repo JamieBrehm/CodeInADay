@@ -1,0 +1,40 @@
+body{
+    background: #FFCC00;
+}
+#headerImage {
+    border-radius: 8px;
+    max-width: 100%;
+}
+h1{
+    color: mediumpurple;
+    background: yellow;
+    text-align: center;
+    border: 1px solid mediumpurple;
+    padding: 40px;
+    margin: 40px;
+}
+li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.important {
+    font-weight: bold;
+    font-size: 2em;
+    color: red;
+}
+.numberList{
+    width: 55%;
+    border: 1px solid purple;
+    background: white;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+    background: red;
+}
+    .numberList{
+    width: 100%;
+    border: 1px solid purple;
+    background: white;
+}
+}
